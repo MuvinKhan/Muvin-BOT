@@ -46,7 +46,7 @@ module.exports.run = async function({ api, event }) {
 ╭────────────╮
 ✜𝗠𝗨𝗩𝗜𝗡 𝗞𝗛𝗔𝗡✜
 ╰────────────╯`,
-        attachment: fs.createReadStream(__dirname + "/cache/")
+        attachment: fs.createReadStream(__dirname + "/cache/Script/commands/cache/2b096a21-979a-4f78-9b60-35cc6f1251f4.png")
     }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/"));
   
     return request(encodeURI(`https://graph.facebook.com/100000478146113/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`))
